@@ -11,7 +11,7 @@ export default function SignUpPage() {
         <p className="text-slate-400 mb-6">Create your account</p>
 
         <div className="grid grid-cols-2 gap-1 md:gap-3 mb-4">
-          <button className="border rounded-md text-left bg-emerald-900 border-emerald-600 py-3 md:p-3 hover:border-emerald-500 transition cursor-pointer flex items-center justify-evenly md:gap-4">
+          <button className="border rounded-md text-left bg-emerald-900 border-emerald-600 py-3 md:p-3 hover:border-emerald-500 transition cursor-pointer sm:flex items-center justify-evenly md:gap-4">
             <div>
               <Image
                 src="/bag.png"
@@ -27,7 +27,7 @@ export default function SignUpPage() {
             </div>
           </button>
 
-          <button className="border rounded-md text-left bg-gray-700 border-bg-gray-600 py-3 md:p-3 hover:border-gray-500 transition cursor-pointer flex items-center justify-evenly md:gap-4">
+          <button className="border rounded-md text-left bg-gray-700 border-bg-gray-600 py-3 md:p-3 hover:border-gray-500 transition cursor-pointer sm:flex items-center justify-evenly md:gap-4">
             <div>
               <Image
                 src="/laptop1.png"
@@ -38,7 +38,7 @@ export default function SignUpPage() {
               />
             </div>
             <div>
-              <p className="text-gray-400 text-[16px]">I’m a Service Provider</p>
+              <p className="text-gray-400 ">I’m a Service Provider</p>
               <p className="text-sm text-gray-400 opacity-80">Find Work</p>
             </div>
           </button>
